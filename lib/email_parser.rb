@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    split_emails = @emails.split(/,?\s?/)
+    split_emails = @emails.split(/,?\s+/)
     split_emails.each do |email|
       if !parsed_emails.include?(email)
         parsed_emails << email
