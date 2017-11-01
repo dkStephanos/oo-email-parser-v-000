@@ -17,6 +17,7 @@ class EmailParser
         parsed_emails << email
       end
     end
+    parsed_emails
   end
 
 
